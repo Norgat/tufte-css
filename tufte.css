@@ -231,7 +231,9 @@ h1 .code, h2 .code, h3 .code { font-size: 0.80em; }
 
 pre.code { width: 52.5%;
            padding-left: 2.5%;
-           overflow-x: scroll; }
+           overflow-x: auto; }
+
+pre.code.fullwidth { width: 90%; }
 
 .fullwidth { max-width: 90%;
              clear:both; }
